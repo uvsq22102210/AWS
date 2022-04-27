@@ -36,19 +36,7 @@ const Header = () => {
         h1 style = {
             { color: 'orange' }
         } > QUIZ < /h1> < /
-        Menu.Item > {
-            promptEvent && !isAppInstalled && ( <
-                Menu.Item position = "right" >
-                <
-                Button color = "blue"
-                icon = "cloud download"
-                labelPosition = "left"
-                content = "Install App"
-                onClick = { installApp }
-                /> < /
-                Menu.Item >
-            )
-        } <
+        Menu.Item > <
         /Menu>
     );
 };
